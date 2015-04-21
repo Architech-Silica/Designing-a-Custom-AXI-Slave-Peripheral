@@ -1,0 +1,11 @@
+OPTION psf_version = 2.1;
+
+BEGIN driver rc_servo_controller
+
+  OPTION supported_peripherals = (axi_rc_servo_controller_v2_0);
+  OPTION driver_state = ACTIVE;
+  OPTION copyfiles = all;
+  OPTION VERSION = 3.0;
+  OPTION NAME = rc_servo_controller;
+
+END driver

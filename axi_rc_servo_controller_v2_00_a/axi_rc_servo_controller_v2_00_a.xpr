@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2014.2 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright (c) 2001-2013 Xilinx Inc, All rights reserved -->
+
+<Project Version="7" Minor="1" Path="C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_rc_servo_controller_v2_00_a/.Xil/Vivado-8124-GBSTEZ1NB07680M/PrjAr/_X_/axi_rc_servo_controller_v2_00_a.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="61cce61000874ef685e865093eb9cacc"/>
+    <Option Name="Part" Val="xc7z010clg400-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="TargetLanguage" Val="VHDL"/>
+    <Option Name="SimulatorLanguage" Val="VHDL"/>
+    <Option Name="BoardPart" Val="em.avnet.com:microzed:part0:1.0"/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/vhdl/servo_controller_functions_pkg.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="axi_rc_servo_controller"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../custom_edk_ip/MyProcessorIPLib/pcores/axi_rc_servo_controller_v1_00_a/hdl/vhdl/servo_controller_functions_pkg.vhd"/>
+          <Attr Name="ImportTime" Val="1292426198"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/vhdl/servo_controller.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../custom_edk_ip/MyProcessorIPLib/pcores/axi_rc_servo_controller_v1_00_a/hdl/vhdl/servo_controller.vhd"/>
+          <Attr Name="ImportTime" Val="1302258832"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/vhdl/clock_divider.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../custom_edk_ip/MyProcessorIPLib/pcores/axi_rc_servo_controller_v1_00_a/hdl/vhdl/clock_divider.vhd"/>
+          <Attr Name="ImportTime" Val="1302260328"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/vhdl/axi_rc_servo_controller.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../custom_edk_ip/MyProcessorIPLib/pcores/axi_rc_servo_controller_v1_00_a/hdl/vhdl/axi_rc_servo_controller.vhd"/>
+          <Attr Name="ImportTime" Val="1302258786"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/axi_rc_servo_controller_v2_00_a/component.xml">
+        <FileInfo SFType="IPXACT">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../component.xml"/>
+          <Attr Name="ImportTime" Val="1392748892"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/archive_project_summary.txt"/>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="axi_rc_servo_controller"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sim_1/imports/testbench_files/AXI_WRITE_RESPONSE_CHANNEL_model.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../customer/Project_Z/servo_controller_ip_creation/servo_controller_rev1/servo_controller_rev1.srcs/sim_1/imports/testbench_files/AXI_WRITE_RESPONSE_CHANNEL_model.vhd"/>
+          <Attr Name="ImportTime" Val="1390913089"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/testbench_files/AXI_WRITE_DATA_CHANNEL_model.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../custom_edk_ip/MyProcessorIPLib/pcores/fsmc_axi4_bridge_v1_00_a/testbench_files/AXI_WRITE_DATA_CHANNEL_model.vhd"/>
+          <Attr Name="ImportTime" Val="1389986214"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/testbench_files/AXI_READ_DATA_CHANNEL_model.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../custom_edk_ip/MyProcessorIPLib/pcores/fsmc_axi4_bridge_v1_00_a/testbench_files/AXI_READ_DATA_CHANNEL_model.vhd"/>
+          <Attr Name="ImportTime" Val="1303126448"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/testbench_files/AXI_ADDRESS_CONTROL_CHANNEL_model.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../custom_edk_ip/MyProcessorIPLib/pcores/fsmc_axi4_bridge_v1_00_a/testbench_files/AXI_ADDRESS_CONTROL_CHANNEL_model.vhd"/>
+          <Attr Name="ImportTime" Val="1302877322"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/AXI_lite_master_transaction_model.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../customer/Project_Z/servo_controller_ip_creation/servo_controller_rev1/servo_controller_rev1.srcs/sim_1/new/AXI_lite_master_transaction_model.vhd"/>
+          <Attr Name="ImportTime" Val="1390933008"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/new/axi_rc_servo_controller_tb.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../customer/Project_Z/servo_controller_ip_creation/servo_controller_rev1/servo_controller_rev1.srcs/sim_1/new/axi_rc_servo_controller_tb.vhd"/>
+          <Attr Name="ImportTime" Val="1389804326"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/testbench_files/Servo_Controller_Testbench.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../custom_edk_ip/MyProcessorIPLib/pcores/xps_rc_servo_controller_v1_00_b/testbench_files/Servo_Controller_Testbench.vhd"/>
+          <Attr Name="ImportTime" Val="1293028012"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/testbench_files/clock_divider_Testbench.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../custom_edk_ip/MyProcessorIPLib/pcores/xps_rc_servo_controller_v1_00_b/testbench_files/clock_divider_Testbench.vhd"/>
+          <Attr Name="ImportTime" Val="1293027162"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/servo_controller_rev1/axi_rc_servo_controller_testbench_waves_rg1.wcfg">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../customer/Project_Z/servo_controller_ip_creation/servo_controller_rev1/axi_rc_servo_controller_testbench_waves_rg1.wcfg"/>
+          <Attr Name="ImportTime" Val="1391446064"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/servo_controller_rev1/servo_controller_Testbench_wave_rg1.wcfg">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../customer/Project_Z/servo_controller_ip_creation/servo_controller_rev1/servo_controller_Testbench_wave_rg1.wcfg"/>
+          <Attr Name="ImportTime" Val="1391444410"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/axi_rc_servo_controller_v2_00_a/servo_controller_Testbench_waves_rg1.wcfg">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../servo_controller_Testbench_waves_rg1.wcfg"/>
+          <Attr Name="ImportTime" Val="1392123974"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/axi_rc_servo_controller_v2_00_a/axi_rc_servo_controller_testbench_waves_rg1.wcfg">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../axi_rc_servo_controller_testbench_waves_rg1.wcfg"/>
+          <Attr Name="ImportTime" Val="1392057890"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="axi_rc_servo_controller_testbench"/>
+        <Option Name="SimulationRunTime" Val="4us"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../../../../axi_rc_servo_controller_testbench_waves_rg1.wcfg"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Runs Version="1" Minor="9">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2013"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" SynthRun="synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2013"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+  </Runs>
+</Project>
